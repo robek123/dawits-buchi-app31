@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - '157.230.3.120:3000:80'
